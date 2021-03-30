@@ -90,24 +90,4 @@ Visualizing the fraudalent and non-fradaulant transcation after anomaly or outli
 
 #### Observations:
 
-Comparing the model scores (accuracy & f1_score) for week 3 & week4:
-Models used in Week 3 after undersampling
-Model used in week3	Accuracy	F1_score
-1. Gaussian Naive Bayes	0.98	0.10
-2. Logistic regression	0.97	0.09
-3. Random Forest Classifier	0.99	0.31
-4. XGBoost Classifier	0.97	0.10
-5. Artificial Neural Network
-i) epochs 300 & lr=0.1	0.98	0.14
-ii)epochs 600 & lr=0.1	0.96	0.07
-iii) epochs 900 & lr=0.1	0.96	0.06
-iv)Stochastic gradient descent(SGD opt)	0.98	0.11
-v) RMSprop opt	0.98	0.11
-vi)RMSprop opt with dropout	0.98	0.10
-Models used in Week 4 after outlier removal
-Model used in week4	Accuracy	F1_score
-1. Gaussian Naive Bayes	0.95	0.05
-2. Logistic regression	0.96	0.07
-3. XGBoost Classifier	0.98	0.14
-4. Artificial Neural Network with RMSprop opt and dropout	0.98	0.12
-We have got incremental gains in f1 score for Logistic regression, XGBoost and ANNs.
+![Untitled](https://user-images.githubusercontent.com/64850346/113062000-a60c9680-91d0-11eb-875f-87449eeba9dc.png)
