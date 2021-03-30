@@ -91,3 +91,6 @@ Visualizing the fraudalent and non-fradaulant transcation after anomaly or outli
 #### Observations:
 
 ![Untitled](https://user-images.githubusercontent.com/64850346/113062000-a60c9680-91d0-11eb-875f-87449eeba9dc.png)
+
+![Untitled1](https://user-images.githubusercontent.com/64850346/113062145-eb30c880-91d0-11eb-8f1d-632003955452.png)
+
