@@ -6,9 +6,16 @@ The datasets contain transactions made by credit cards in September 2013 by Euro
 Downlod the data sets from : https://www.dropbox.com/s/6z5jxcqaqipxiun/Project%202-Finance-Datasets.zip?dl=0
 Project Task
 Exploratory Data Analysis (EDA):
-Perform an EDA on the Dataset. a) Check all the latent features and parameters with their mean and standard deviation. Value are close to 0 centered (mean) with unit standard deviation b) Find if there is any connection between Time, Amount, and the transaction being fraudulent.
+Perform an EDA on the Dataset. a) Check all the latent features and parameters with their mean and standard deviation. Value are close to 0 centered (mean) with unit standard deviation 
+b) Find if there is any connection between Time, Amount, and the transaction being fraudulent.
 Check the class count for each class. It’s a class Imbalance problem.
-Use techniques like undersampling or oversampling before running Naïve Bayes, Logistic Regression or SVM. a. Oversampling or undersampling can be used to tackle the class imbalance problem b. Oversampling increases the prior probability of imbalanced class and in case of other classifiers, error gets multiplied as the low-proportionate class is mimicked multiple times. 4 Following are the matrices for evaluating the model performance: Precision, Recall, F1-Score, AUC-ROC curve. Use F1-Score as the evaluation criteria for this project.
+Use techniques like undersampling or oversampling before running Naïve Bayes, Logistic Regression or SVM. 
+  a. Oversampling or undersampling can be used to tackle the class imbalance problem 
+  b. Oversampling increases the prior probability of imbalanced class and in case of other classifiers, error gets multiplied as the low-proportionate class is mimicked multiple times. 
+ 
+  Following are the matrices for evaluating the model performance:
+  Precision, Recall, F1-Score, AUC-ROC curve. Use F1-Score as the evaluation criteria for this project.
+
 Note: Major terms used with AUC and ROC Curve
 Let us consider :
 
@@ -32,6 +39,3 @@ TPRorFPR=1−Specificity=1−(TNTN+FP)=FPTN+FP
 
 5. F1-Score :
 F1=1∗(Precision∗RecallPrecision+Recall)
-
-
-Plotting ROC_AUC curve and accuracy score on undersampled and oversampled data
